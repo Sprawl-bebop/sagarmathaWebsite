@@ -22,16 +22,12 @@ $(function() {
     $(".curriculum>div .panel.active").removeClass("active");
     $(this).addClass("active");
     var panelId = $(this).attr("data-panel");
-    // alert(panelId);
 
     $(".curriculum .panel.active").slideToggle(300, function(){
       $(this).removeClass("active");
-
       $("#"+panelId).slideToggle(300, function(){
         $(this).addClass("active");
       });
-    });
-
-    
+    });    
   });
 });
