@@ -199,6 +199,12 @@ div.menu{
 /*========================================================================================*/
 
 /*Carousel Main*/
+
+/*carousel-item size redifined again*/
+.carousel-item{
+    height: 800px;
+}
+
 .carousel img {
     width: 100%;
     height: 800px;
